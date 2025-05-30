@@ -1,0 +1,73 @@
+body{
+    background-color: deepskyblue;
+    align-items: center;
+    justify-items: center;
+}
+form{
+    font-family: 'Montserrat';
+    background-color: lightgray;
+    border-radius: 20px;
+    padding-top: 0.1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-top: 10%;
+}
+h1{
+    font-size: 250%;
+    align-self: center;
+    justify-self: center;
+}
+label{
+    font-size: 150%;
+}
+input{
+    font-size: 150%;
+    margin-top: 5%;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+input::placeholder{
+    color: rgb(190, 190, 190);
+}
+input:hover{
+    transition: 0.5s;
+    background-color: darkgray;
+}
+#submit_input{
+    background-color: blueviolet;
+}
+#submit_input:hover{
+    background-color:darkorchid;
+    transition: 0.5s;
+}
+button{
+    font-size: 150%;
+    margin-top: 5%;
+    margin-left: 1%;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: darkgray;
+}
+textarea{
+    font-size: 150%;
+    margin-top: 5%;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+textarea::placeholder{
+    color: rgb(190, 190, 190);
+}
+textarea:hover{
+    background-color:darkorchid;
+    transition: 0.5s; 
+}
